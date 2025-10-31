@@ -37,7 +37,7 @@ export default function PricingSection() {
         "Custom integrations",
 
       ],
-      cta: "Start Free Trial",
+      cta: "Upgrade Now",
       highlighted: true,
     },
     {
@@ -153,12 +153,7 @@ export default function PricingSection() {
           </p>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Link href="/pricing">
-              <Button 
-                variant="outline" 
-                className="bg-transparent backdrop-blur-sm border-primary/20 hover:border-primary/50 hover:bg-primary/5"
-              >
-                View Detailed Comparison
-              </Button>
+              
             </Link>
           </motion.div>
         </motion.div>

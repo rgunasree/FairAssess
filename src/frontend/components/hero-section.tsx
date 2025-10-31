@@ -25,7 +25,7 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link href="/analyze">
                 <Button size="lg" className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground">
-                  Analyze 
+                  Analyze
                 </Button>
               </Link>
               <Link href="/#pricing">

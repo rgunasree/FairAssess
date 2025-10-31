@@ -1,7 +1,7 @@
 import { analyzeTextLocal } from '@/lib/nlp/analyzer'
-import { describe, test, expect } from '@playwright/test'
+import { test, expect } from '@playwright/test'
 
-describe('Bias Detection Tests', () => {
+test.describe('Bias Detection Tests', () => {
   test('should detect gender bias', async () => {
     const result = analyzeTextLocal('We are looking for a strong and aggressive leader who can be the ninja rockstar of our team.')
     expect(result.biasTypes).toContainEqual(expect.objectContaining({

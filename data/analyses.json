@@ -523,5 +523,181 @@
     "fairnessScore": 100,
     "biasTypes": [],
     "improvedText": "Seeking a fresh graduate who lives online"
+  },
+  {
+    "id": "ade6959e-9da4-4d42-84c8-d347f55727ec",
+    "title": "Analysis - We are looking for an aggressive",
+    "date": "2025-10-31T04:13:51.594Z",
+    "originalText": "We are looking for an aggressive and dynamic software engineer with 5+ years of experience. Must be a digital native and energetic team player. Ideal candidate should be ambitious and willing to work long hours.",
+    "fairnessScore": 75,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "ambitious"
+        ],
+        "suggestions": [
+          "assertive",
+          "goal-oriented"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "digital native",
+          "energetic"
+        ],
+        "suggestions": [
+          "tech-savvy individual",
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "We are looking for an assertive and dynamic software engineer with 5+ years of experience. Must be a tech-savvy individual and motivated team player. Ideal candidate should be goal-oriented and willing to work long hours."
+  },
+  {
+    "id": "c5ca0ec0-64ea-4885-807a-0a46538655f1",
+    "title": "Analysis - Tell us about a time you were ag",
+    "date": "2025-10-31T04:13:58.377Z",
+    "originalText": "Tell us about a time you were aggressive in pursuing a goal. How do you stay energetic during long projects? We value ambitious individuals who can adapt quickly.",
+    "fairnessScore": 82,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "ambitious"
+        ],
+        "suggestions": [
+          "assertive",
+          "goal-oriented"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "energetic"
+        ],
+        "suggestions": [
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "Tell us about a time you were assertive in pursuing a goal. How do you stay motivated during long projects? We value goal-oriented individuals who can adapt quickly."
+  },
+  {
+    "id": "390f9f73-568d-4ab4-bfa7-9001fbdace39",
+    "title": "Analysis - Rate your agreement: I am an amb",
+    "date": "2025-10-31T04:14:02.820Z",
+    "originalText": "Rate your agreement: I am an ambitious professional. I consider myself energetic and dynamic. I prefer working with native English speakers.",
+    "fairnessScore": 89,
+    "biasTypes": [
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "energetic"
+        ],
+        "suggestions": [
+          "motivated"
+        ]
+      },
+      {
+        "type": "Gender Bias",
+        "confidence": 0.9,
+        "examples": [
+          "ambitious"
+        ],
+        "suggestions": [
+          "goal-oriented"
+        ]
+      }
+    ],
+    "improvedText": "Rate your agreement: I am an goal-oriented professional. I consider myself motivated and dynamic. I prefer working with native English speakers."
+  },
+  {
+    "id": "ad068ea6-91a4-4a1f-92b1-50da9c56a0ab",
+    "title": "Analysis - We are looking for an aggressive",
+    "date": "2025-10-31T04:17:00.807Z",
+    "originalText": "We are looking for an aggressive and dynamic software engineer with 5+ years of experience. Must be a digital native and energetic team player. Ideal candidate should be ambitious and willing to work long hours.",
+    "fairnessScore": 75,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "ambitious"
+        ],
+        "suggestions": [
+          "assertive",
+          "goal-oriented"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "digital native",
+          "energetic"
+        ],
+        "suggestions": [
+          "tech-savvy individual",
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "We are looking for an assertive and dynamic software engineer with 5+ years of experience. Must be a tech-savvy individual and motivated team player. Ideal candidate should be goal-oriented and willing to work long hours."
+  },
+  {
+    "id": "43663ccc-578f-42b4-8546-b82068d41196",
+    "title": "Analysis - We are seeking a young, dynamic ",
+    "date": "2025-10-31T04:21:06.112Z",
+    "originalText": "We are seeking a young, dynamic rockstar ninja developer who is a native English speaker. Must be aggressive and energetic, willing to work long hours. The ideal candidate should be a male who can handle pressure and be the backbone of our team.",
+    "fairnessScore": 63,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "rockstar",
+          "ninja"
+        ],
+        "suggestions": [
+          "assertive",
+          "lead",
+          "lead"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "young",
+          "energetic"
+        ],
+        "suggestions": [
+          "motivated",
+          "motivated"
+        ]
+      },
+      {
+        "type": "Cultural Bias",
+        "confidence": 1,
+        "examples": [
+          "native English speaker"
+        ],
+        "suggestions": [
+          "fluent in English"
+        ]
+      }
+    ],
+    "improvedText": "We are seeking a motivated, dynamic lead lead developer who is a fluent in English. Must be assertive and motivated, willing to work long hours. The ideal candidate should be a male who can handle pressure and be the backbone of our team."
   }
 ]
