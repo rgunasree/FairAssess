@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "buildCommand": "npm install && next build",
-  "outputDirectory": ".next",
   "framework": "nextjs",
   "regions": ["sin1"],
   "builds": [
     {
-      "src": "next.config.mjs",
+      "src": "package.json",
       "use": "@vercel/next"
     }
   ],
