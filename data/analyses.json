@@ -1,0 +1,527 @@
+[
+  {
+    "id": "da8d56e2-5d03-4c87-8348-8fe5c3cf5796",
+    "title": "Analysis - We are looking for an aggressive",
+    "date": "2025-10-31T02:10:35.083Z",
+    "originalText": "We are looking for an aggressive and dynamic software engineer with 5+ years of experience. Must be a digital native and energetic team player. Ideal candidate should be ambitious and willing to work long hours.",
+    "fairnessScore": 75,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "ambitious"
+        ],
+        "suggestions": [
+          "assertive",
+          "goal-oriented"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "digital native",
+          "energetic"
+        ],
+        "suggestions": [
+          "tech-savvy individual",
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "We are looking for an assertive and dynamic software engineer with 5+ years of experience. Must be a tech-savvy individual and motivated team player. Ideal candidate should be goal-oriented and willing to work long hours."
+  },
+  {
+    "id": "6c89927d-ad1a-427b-82a4-10314a406ac0",
+    "title": "Analysis - We want an aggressive, ambitious",
+    "date": "2025-10-31T02:23:53.367Z",
+    "originalText": "We want an aggressive, ambitious digital native with a clean cut look and christian values.",
+    "fairnessScore": 69,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "ambitious"
+        ],
+        "suggestions": [
+          "assertive",
+          "goal-oriented"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "digital native"
+        ],
+        "suggestions": [
+          "tech-savvy individual"
+        ]
+      },
+      {
+        "type": "Racial Bias",
+        "confidence": 1,
+        "examples": [
+          "clean cut look"
+        ],
+        "suggestions": [
+          "professional appearance"
+        ]
+      },
+      {
+        "type": "Religious Bias",
+        "confidence": 1,
+        "examples": [
+          "christian values"
+        ],
+        "suggestions": [
+          "ethical standards"
+        ]
+      }
+    ],
+    "improvedText": "We want an assertive, goal-oriented tech-savvy individual with a professional appearance and ethical standards."
+  },
+  {
+    "id": "0392887c-6176-4e65-8d4d-f0d3575cc884",
+    "title": "E2E Smoke",
+    "date": "2025-10-31T02:36:57.239Z",
+    "originalText": "We seek an aggressive, energetic digital native who is a native English speaker.",
+    "fairnessScore": 74,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive"
+        ],
+        "suggestions": [
+          "assertive"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "digital native",
+          "energetic"
+        ],
+        "suggestions": [
+          "tech-savvy individual",
+          "motivated"
+        ]
+      },
+      {
+        "type": "Cultural Bias",
+        "confidence": 1,
+        "examples": [
+          "native English speaker"
+        ],
+        "suggestions": [
+          "fluent in English"
+        ]
+      }
+    ],
+    "improvedText": "We seek an assertive, motivated tech-savvy individual who is a fluent in English."
+  },
+  {
+    "id": "fe9c4b65-2f35-41dc-88e8-34720d393ddc",
+    "title": "Analysis - Rate your agreement: I am an amb",
+    "date": "2025-10-31T02:40:05.684Z",
+    "originalText": "Rate your agreement: I am an ambitious professional. I consider myself energetic and dynamic. I prefer working with native English speakers.",
+    "fairnessScore": 89,
+    "biasTypes": [
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "energetic"
+        ],
+        "suggestions": [
+          "motivated"
+        ]
+      },
+      {
+        "type": "Gender Bias",
+        "confidence": 0.9,
+        "examples": [
+          "ambitious"
+        ],
+        "suggestions": [
+          "goal-oriented"
+        ]
+      }
+    ],
+    "improvedText": "Rate your agreement: I am an goal-oriented professional. I consider myself motivated and dynamic. I prefer working with native English speakers."
+  },
+  {
+    "id": "22a354d7-2b70-473f-8eb6-691a5b18471b",
+    "title": "Analysis - Tell us about a time you were ag",
+    "date": "2025-10-31T02:40:37.048Z",
+    "originalText": "Tell us about a time you were aggressive in pursuing a goal. How do you stay energetic during long projects? We value ambitious individuals who can adapt quickly.",
+    "fairnessScore": 82,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "ambitious"
+        ],
+        "suggestions": [
+          "assertive",
+          "goal-oriented"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "energetic"
+        ],
+        "suggestions": [
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "Tell us about a time you were assertive in pursuing a goal. How do you stay motivated during long projects? We value goal-oriented individuals who can adapt quickly."
+  },
+  {
+    "id": "1a5477f7-9718-4b5d-99c8-ea0d02f41ad3",
+    "title": "E2E Smoke",
+    "date": "2025-10-31T02:58:47.211Z",
+    "originalText": "We seek an aggressive, energetic digital native who is a native English speaker.",
+    "fairnessScore": 74,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive"
+        ],
+        "suggestions": [
+          "assertive"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "digital native",
+          "energetic"
+        ],
+        "suggestions": [
+          "tech-savvy individual",
+          "motivated"
+        ]
+      },
+      {
+        "type": "Cultural Bias",
+        "confidence": 1,
+        "examples": [
+          "native English speaker"
+        ],
+        "suggestions": [
+          "fluent in English"
+        ]
+      }
+    ],
+    "improvedText": "We seek an assertive, motivated tech-savvy individual who is a fluent in English."
+  },
+  {
+    "id": "de95884e-b198-417a-b34d-9a27b66c08e2",
+    "title": "Analysis - We are looking for an aggressive",
+    "date": "2025-10-31T03:01:37.423Z",
+    "originalText": "We are looking for an aggressive and dynamic software engineer with 5+ years of experience. Must be a digital native and energetic team player. Ideal candidate should be ambitious and willing to work long hours.",
+    "fairnessScore": 75,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "ambitious"
+        ],
+        "suggestions": [
+          "assertive",
+          "goal-oriented"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "digital native",
+          "energetic"
+        ],
+        "suggestions": [
+          "tech-savvy individual",
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "We are looking for an assertive and dynamic software engineer with 5+ years of experience. Must be a tech-savvy individual and motivated team player. Ideal candidate should be goal-oriented and willing to work long hours."
+  },
+  {
+    "id": "91e5778e-2924-40b6-89d2-83d8f134477e",
+    "title": "Analysis - We seek an aggressive, energetic",
+    "date": "2025-10-31T03:01:43.929Z",
+    "originalText": "We seek an aggressive, energetic digital native.",
+    "fairnessScore": 81,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive"
+        ],
+        "suggestions": [
+          "assertive"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "digital native",
+          "energetic"
+        ],
+        "suggestions": [
+          "tech-savvy individual",
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "We seek an assertive, motivated tech-savvy individual."
+  },
+  {
+    "id": "efa12499-3ca1-4819-a0bc-82c5738c06be",
+    "title": "Analysis - We seek an aggressive, energetic",
+    "date": "2025-10-31T03:02:47.252Z",
+    "originalText": "We seek an aggressive, energetic digital native.",
+    "fairnessScore": 81,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive"
+        ],
+        "suggestions": [
+          "assertive"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "digital native",
+          "energetic"
+        ],
+        "suggestions": [
+          "tech-savvy individual",
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "We seek an assertive, motivated tech-savvy individual."
+  },
+  {
+    "id": "26a5459e-ea92-4999-841b-63260d0f4413",
+    "title": "Analysis - Tell us about a time you were ag",
+    "date": "2025-10-31T03:14:41.294Z",
+    "originalText": "Tell us about a time you were aggressive in pursuing a goal. How do you stay energetic during long projects? We value ambitious individuals who can adapt quickly.",
+    "fairnessScore": 82,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "ambitious"
+        ],
+        "suggestions": [
+          "assertive",
+          "goal-oriented"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "energetic"
+        ],
+        "suggestions": [
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "Tell us about a time you were assertive in pursuing a goal. How do you stay motivated during long projects? We value goal-oriented individuals who can adapt quickly."
+  },
+  {
+    "id": "9d82925f-1494-4420-80b4-90aa0914ae47",
+    "title": "Analysis - We are looking for an aggressive",
+    "date": "2025-10-31T03:26:48.171Z",
+    "originalText": "We are looking for an aggressive and dynamic software engineer with 5+ years of experience. Must be a digital native and energetic team player. Ideal candidate should be ambitious and willing to work long hours.",
+    "fairnessScore": 75,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "ambitious"
+        ],
+        "suggestions": [
+          "assertive",
+          "goal-oriented"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "digital native",
+          "energetic"
+        ],
+        "suggestions": [
+          "tech-savvy individual",
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "We are looking for an assertive and dynamic software engineer with 5+ years of experience. Must be a tech-savvy individual and motivated team player. Ideal candidate should be goal-oriented and willing to work long hours."
+  },
+  {
+    "id": "c2e58e6b-b418-4183-9355-b59f6ab8e437",
+    "title": "Analysis - Tell us about a time you were ag",
+    "date": "2025-10-31T03:45:19.723Z",
+    "originalText": "Tell us about a time you were aggressive in pursuing a goal. How do you stay energetic during long projects? We value ambitious individuals who can adapt quickly.",
+    "fairnessScore": 82,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "ambitious"
+        ],
+        "suggestions": [
+          "assertive",
+          "goal-oriented"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "energetic"
+        ],
+        "suggestions": [
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "Tell us about a time you were assertive in pursuing a goal. How do you stay motivated during long projects? We value goal-oriented individuals who can adapt quickly."
+  },
+  {
+    "id": "34dfe97c-4bd6-4597-bdd2-cbfb00d953ae",
+    "title": "Analysis - Write your answer only in fluent",
+    "date": "2025-10-31T03:46:05.698Z",
+    "originalText": "Write your answer only in fluent native-level American English, not in any other accent or form.\n\nDescribe why Western business ethics are superior to Asian work culture.\n\nExplain why native English speakers make better team leaders than others.\n\nShare how Christmas celebrations motivate employees better than any local festival.\n\nDiscuss why people from developing countries may struggle with professional communication.\n\nWrite about how English-speaking employees adapt faster than those who use regional languages.\n\nGive examples from your country’s traditional festivals that might slow down productivity.\n\nDescribe why non-native speakers face challenges in understanding project instructions.\n\nWrite why employees with Western education perform better in multinational companies.\n\nExplain why using local dialects in meetings is unprofessional in global workplaces.\n",
+    "fairnessScore": 100,
+    "biasTypes": [],
+    "improvedText": "Write your answer only in fluent native-level American English, not in any other accent or form.\n\nDescribe why Western business ethics are superior to Asian work culture.\n\nExplain why native English speakers make better team leaders than others.\n\nShare how Christmas celebrations motivate employees better than any local festival.\n\nDiscuss why people from developing countries may struggle with professional communication.\n\nWrite about how English-speaking employees adapt faster than those who use regional languages.\n\nGive examples from your country’s traditional festivals that might slow down productivity.\n\nDescribe why non-native speakers face challenges in understanding project instructions.\n\nWrite why employees with Western education perform better in multinational companies.\n\nExplain why using local dialects in meetings is unprofessional in global workplaces."
+  },
+  {
+    "id": "739dbeea-1704-4676-948d-13d54ce2e7a6",
+    "title": "Analysis - How do professionals from differ",
+    "date": "2025-10-31T03:46:37.400Z",
+    "originalText": "How do professionals from different cultures celebrate New Year?\n\nWrite in formal, clear English.\n\nExplain how communication varies across languages.\n\nDescribe how cultural differences influence teamwork.\n\nHow do multilingual teams ensure clarity?\n\nWrite about the benefits of inclusive workplace communication.\n\nDescribe how diversity supports global collaboration.\n",
+    "fairnessScore": 100,
+    "biasTypes": [],
+    "improvedText": "How do professionals from different cultures celebrate New Year?\n\nWrite in formal, clear English.\n\nExplain how communication varies across languages.\n\nDescribe how cultural differences influence teamwork.\n\nHow do multilingual teams ensure clarity?\n\nWrite about the benefits of inclusive workplace communication.\n\nDescribe how diversity supports global collaboration."
+  },
+  {
+    "id": "33c8f3b5-e8a9-4a89-8a8b-34a41b708569",
+    "title": "Analysis - German is a racist",
+    "date": "2025-10-31T03:47:02.343Z",
+    "originalText": "German is a racist",
+    "fairnessScore": 100,
+    "biasTypes": [],
+    "improvedText": "German is a racist"
+  },
+  {
+    "id": "1c308b5f-9b2a-41de-bbea-4186440cd323",
+    "title": "Analysis - she is black",
+    "date": "2025-10-31T03:47:14.602Z",
+    "originalText": "she is black",
+    "fairnessScore": 100,
+    "biasTypes": [],
+    "improvedText": "she is black"
+  },
+  {
+    "id": "af68bcf9-e5a5-4159-b300-3cec345a1d91",
+    "title": "Analysis - We are looking for an aggressive",
+    "date": "2025-10-31T03:47:21.301Z",
+    "originalText": "We are looking for an aggressive and dynamic software engineer with 5+ years of experience. Must be a digital native and energetic team player. Ideal candidate should be ambitious and willing to work long hours.",
+    "fairnessScore": 75,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "ambitious"
+        ],
+        "suggestions": [
+          "assertive",
+          "goal-oriented"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "digital native",
+          "energetic"
+        ],
+        "suggestions": [
+          "tech-savvy individual",
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "We are looking for an assertive and dynamic software engineer with 5+ years of experience. Must be a tech-savvy individual and motivated team player. Ideal candidate should be goal-oriented and willing to work long hours."
+  },
+  {
+    "id": "c6aab01c-1aa1-46c8-8fbf-33a579228c04",
+    "title": "Analysis - Seeking a fresh graduate who liv",
+    "date": "2025-10-31T03:48:30.187Z",
+    "originalText": "Seeking a fresh graduate who lives online.” → “Seeking a tech-savvy entry-level professional.",
+    "fairnessScore": 100,
+    "biasTypes": [],
+    "improvedText": "Seeking a fresh graduate who lives online.” → “Seeking a tech-savvy entry-level professional."
+  },
+  {
+    "id": "eef33c8f-79f5-4400-977a-00e62194a14c",
+    "title": "Analysis - Seeking a fresh graduate who liv",
+    "date": "2025-10-31T03:48:43.943Z",
+    "originalText": "Seeking a fresh graduate who lives online",
+    "fairnessScore": 100,
+    "biasTypes": [],
+    "improvedText": "Seeking a fresh graduate who lives online"
+  },
+  {
+    "id": "3a0ec7e5-2315-4543-8867-428e40527c45",
+    "title": "Analysis - Seeking a fresh graduate who liv",
+    "date": "2025-10-31T03:52:20.347Z",
+    "originalText": "Seeking a fresh graduate who lives online",
+    "fairnessScore": 100,
+    "biasTypes": [],
+    "improvedText": "Seeking a fresh graduate who lives online"
+  }
+]
