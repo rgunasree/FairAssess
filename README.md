@@ -8,7 +8,7 @@ Stop losing diverse talent due to biased job descriptions. Get instant, actionab
 
 ## 🚀 Live Demo
 
-Visit: [Your deployment URL here]
+Visit: [https://fairassess-j0isbrlkp-gunasrees-projects.vercel.app]
 
 ---
 
