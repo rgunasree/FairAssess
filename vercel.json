@@ -2,12 +2,6 @@
   "version": 2,
   "framework": "nextjs",
   "regions": ["sin1"],
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
   "env": {
     "NEXT_PUBLIC_API_URL": "PLACEHOLDER",
     "NODE_ENV": "production"
