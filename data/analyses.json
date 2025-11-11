@@ -699,5 +699,59 @@
       }
     ],
     "improvedText": "We are seeking a motivated, dynamic lead lead developer who is a fluent in English. Must be assertive and motivated, willing to work long hours. The ideal candidate should be a male who can handle pressure and be the backbone of our team."
+  },
+  {
+    "id": "d27bb9ca-d9cb-4d4d-a1e3-219c413fa497",
+    "title": "Analysis - We are looking for an aggressive",
+    "date": "2025-11-11T07:25:18.044Z",
+    "originalText": "We are looking for an aggressive and dynamic software engineer with 5+ years of experience. Must be a digital native and energetic team player. Ideal candidate should be ambitious and willing to work long hours.",
+    "fairnessScore": 75,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 1,
+        "examples": [
+          "aggressive",
+          "ambitious"
+        ],
+        "suggestions": [
+          "assertive",
+          "goal-oriented"
+        ]
+      },
+      {
+        "type": "Age Bias",
+        "confidence": 1,
+        "examples": [
+          "digital native",
+          "energetic"
+        ],
+        "suggestions": [
+          "tech-savvy individual",
+          "motivated"
+        ]
+      }
+    ],
+    "improvedText": "We are looking for an assertive and dynamic software engineer with 5+ years of experience. Must be a tech-savvy individual and motivated team player. Ideal candidate should be goal-oriented and willing to work long hours."
+  },
+  {
+    "id": "88a9ac4b-fc48-47a5-aa94-796356bf0f09",
+    "title": "Analysis - Senior Product Manager — We need",
+    "date": "2025-11-11T07:32:13.108Z",
+    "originalText": "Senior Product Manager — We need an ambitious, tech-savvy leader who can manage cross-functional teams, mentor junior staff, and ensure product-market fit. Must be proactive, travel occasionally, and have strong communication skills.",
+    "fairnessScore": 95,
+    "biasTypes": [
+      {
+        "type": "Gender Bias",
+        "confidence": 0.9,
+        "examples": [
+          "ambitious"
+        ],
+        "suggestions": [
+          "goal-oriented"
+        ]
+      }
+    ],
+    "improvedText": "Senior Product Manager — We need an goal-oriented, tech-savvy leader who can manage cross-functional teams, mentor junior staff, and ensure product-market fit. Must be proactive, travel occasionally, and have strong communication skills."
   }
 ]

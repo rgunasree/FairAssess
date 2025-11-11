@@ -5,7 +5,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "lint": "eslint .",
+  "lint": "eslint .",
+  "check-local-model": "node scripts/check-local-model.js",
     "start": "next start",
     "train": "node scripts/train.js",
     "e2e": "node scripts/e2e-smoke.mjs",

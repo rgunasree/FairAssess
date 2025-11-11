@@ -20,9 +20,20 @@ function sigmoid(x: number): number {
 
 export async function loadLocalModel(url: string): Promise<LocalModel | null> {
   try {
-    const res = await fetch(url)
-    if (!res.ok) return null
-    const art = (await res.json()) as LocalModelArtifact
+    // Support both browser fetch (client) and filesystem reads (server/runtime)
+    let art: LocalModelArtifact
+    if (typeof window === "undefined" && url.startsWith("/")) {
+      // Running on the server — read the model from the project's public/ folder
+      const fs = await import("fs/promises")
+      const path = await import("path")
+      const filePath = path.join(process.cwd(), "public", url.replace(/^\//, ""))
+      const raw = await fs.readFile(filePath, "utf8")
+      art = JSON.parse(raw) as LocalModelArtifact
+    } else {
+      const res = await fetch(url)
+      if (!res.ok) return null
+      art = (await res.json()) as LocalModelArtifact
+    }
     const labelCount = art.labels.length
     const vocabIndex = new Map(art.vocab.map((t, i) => [t, i]))
 

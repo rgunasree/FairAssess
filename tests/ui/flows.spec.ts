@@ -23,7 +23,7 @@ test('home navigation buttons navigate correctly', async ({ page, baseURL }) => 
   await expect(page).toHaveURL(/\/results$/)
 })
 
-test('analyze flow: analyze, copy, download PDF/CSV', async ({ page, baseURL, context }) => {
+test('analyze flow: analyze, copy, download PDF/CSV', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/analyze`, { waitUntil: 'networkidle' })
   // Enter text and analyze
   await page.locator('textarea[placeholder^="Paste your job description"]').fill('We seek an aggressive, energetic digital native.')

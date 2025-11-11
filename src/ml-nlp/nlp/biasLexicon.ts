@@ -53,7 +53,22 @@ export function applySuggestions(text: string, examples: string[], suggestions: 
   for (let i = 0; i < examples.length; i++) {
     const ex = examples[i]
     const sug = suggestions[i] || suggestions[0] || ex
-    const re = new RegExp(ex.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi")
+    // Escape for literal regex
+    const exEsc = ex.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+
+    // If the example is preceded by an indefinite article, fix article to match the suggestion
+    try {
+      const startsWithVowel = (w: string) => /^[aeiou]/i.test(w)
+      const artRe = new RegExp(`\\b(a|an)\\s+${exEsc}\\b`, "gi")
+      improved = improved.replace(artRe, (_match, _p1) => {
+        const art = startsWithVowel(sug) ? "an" : "a"
+        return art + " " + sug
+      })
+    } catch {
+      // ignore regex errors and continue with plain replacement
+    }
+
+    const re = new RegExp(exEsc, "gi")
     improved = improved.replace(re, sug)
   }
   return improved

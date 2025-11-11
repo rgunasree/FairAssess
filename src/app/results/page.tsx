@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import Link from "next/link"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
@@ -33,14 +33,38 @@ export default function ResultsDashboard() {
     recommendations: { category: string; impact: string; issue: string; suggestion: string }[]
   } | null>(null)
   const [reportOpen, setReportOpen] = useState(false)
-  const [selectedId, setSelectedId] = useState<string | null>(null)
   const [selected, setSelected] = useState<any | null>(null)
   const [selectedBiasTypes, setSelectedBiasTypes] = useState<string[]>([])
   const [refreshTrigger, setRefreshTrigger] = useState(0)
   const { toast } = useToast()
 
+  // Helper to copy text with fallback (used by Apply Fix flows)
+  async function copyWithFallback(text: string) {
+    try {
+      await navigator.clipboard.writeText(text)
+      toast({ title: 'Improved text copied!', description: 'You can now paste it into your editor.' })
+      return true
+    } catch {
+      // fallback to textarea
+      try {
+        const ta = document.createElement('textarea')
+        ta.value = text
+        ta.style.position = 'fixed'
+        ta.style.left = '-9999px'
+        document.body.appendChild(ta)
+        ta.select()
+        document.execCommand('copy')
+        ta.remove()
+        toast({ title: 'Improved text copied!', description: 'You can now paste it into your editor.' })
+        return true
+      } catch {
+        toast({ title: 'Failed to copy text', description: 'Please try again or copy manually from the report.', variant: 'destructive' })
+        return false
+      }
+    }
+  }
+
   async function openReport(id: string) {
-    setSelectedId(id)
     setReportOpen(true)
     try {
       const res = await fetch(`/api/analyses/${id}`, { cache: 'no-store' })
@@ -76,19 +100,7 @@ export default function ResultsDashboard() {
       return
     }
 
-    try {
-      await navigator.clipboard.writeText(text)
-      toast({ 
-        title: 'Improved text copied!', 
-        description: 'You can now paste it into your editor.'
-      })
-    } catch (err) {
-      toast({ 
-        title: 'Failed to copy text', 
-        description: 'Please try again or copy manually from the report.',
-        variant: 'destructive'
-      })
-    }
+    await copyWithFallback(text)
   }
 
   const handleApplyFix = async (id: string) => {
@@ -98,12 +110,8 @@ export default function ResultsDashboard() {
       const json = await res.json()
       if (!json.improvedText) throw new Error('No improved text available')
       
-      await navigator.clipboard.writeText(json.improvedText)
-      toast({ 
-        title: 'Improved text copied!', 
-        description: 'You can now paste it into your editor.'
-      })
-    } catch (err) {
+      await copyWithFallback(json.improvedText)
+    } catch {
       toast({ 
         title: 'Failed to copy text', 
         description: 'Please try again or copy manually from the report.',
